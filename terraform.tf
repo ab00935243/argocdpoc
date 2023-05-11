@@ -42,8 +42,8 @@ resource "azurerm_kubernetes_cluster" "aks_cluster" {
 
 
   service_principal {
-    client_id     = "740dfa8e-9f1b-4a66-9851-a307fe754482"
-    client_secret = "YU~8Q~6_MMvmI67QfoJaKLyx3nps8RgsZw3KBbNu"
+    client_id     = "442949a0-993f-4e46-8cf8-3dd7427f7ba5"
+    client_secret = "LFP8Q~qkN7F85HjKn~aejNWKc2MTbBbTcgfatc~Y"
   }
 
   network_profile {
