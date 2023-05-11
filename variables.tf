@@ -3,6 +3,17 @@ variable "resource_group_name" {
   type        = string
 }
 
+variable "client_secret" {
+  description = "Azure AD Application Client Secret"
+  type        = string
+}
+
+variable "subnet_name" {
+  description = "Name of the subnet"
+  type        = string
+}
+
+
 variable "resource_group_location" {
   description = "Location of the resource group"
   type        = string
